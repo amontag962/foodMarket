@@ -340,6 +340,10 @@ template {
           align-items: center;
 }
 
+.header-logo {
+  margin-top: 7px;
+}
+
 .header-search {
   margin-left: 76px;
   max-width: 620px;
@@ -358,13 +362,14 @@ template {
   background-color: transparent;
   border: none;
   width: 100%;
-  padding: 20px 13px 20px 13px;
+  padding: 16px 13px 14px 21px;
 }
 
 .header-search__button {
   background-color: transparent;
   border: none;
-  padding: 13px 18px 14px 0px;
+  padding-top: 14px;
+  padding-right: 18px;
   position: absolute;
   right: 0;
   top: 0;
@@ -373,6 +378,12 @@ template {
 
 .header-auth {
   margin-left: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: block;
 }
 
 .header-auth__login {
@@ -382,4 +393,8 @@ template {
   text-decoration: none;
   color: #000000;
   margin-right: 31px;
+}
+
+.header-auth__shopping-cart {
+  margin-top: 4px;
 }
